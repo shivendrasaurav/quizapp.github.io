@@ -1,0 +1,155 @@
+<html>
+<head>
+    <title>Quiz</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="mars.css" type="text/css" rel="stylesheet"/>
+    <script src="answersheet.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body onload="showone()">
+
+<div class="col large8 quiz left">
+        <h1>Questions Related To The Topic : </h1>
+        <div id="one">
+                <h3>Q1. Two ships are sailing in the sea on the two sides of a lighthouse. 
+                        The angle of elevation of the top of the lighthouse is observed from 
+                        the ships are 30° and 45° respectively. If the lighthouse is 100m high, 
+                        the distance between the two ships is:
+                </h3>
+                <div class="check">
+                        <input type="radio" name="qone" value="Radians" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        273
+                </div><br>
+                <div class="check">
+                        <input type="radio" name="qone" value="Scripting" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        300
+                </div><br>
+                <div class="check">
+                        <input type="radio" name="qone" value="Assembly" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;173
+                </div><br>
+                <div class="check">
+                        <input type="radio" name="qone" value="None" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;250
+                </div><br>
+                <button class="primary small right" onclick="showtwo()">Next</button>
+        </div>
+
+        <div id="two">
+                <h3>Q2. If one-third of one-fourth of a number is 15, then three-tenth of that number is:</h3>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qtwo" value="Programming" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;44
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qtwo" value="Scripting" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;45
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qtwo" value="54" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;54
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qtwo" value="45" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;55
+                </div><br>
+                <button class="primary small left" onclick="showone()">Prev</button>
+                <button class="primary small right" onclick="showthree()">Next</button>
+        </div>
+
+        <div id="three">
+                <h3>Q3. It was Sunday on Jan 1, 2006. What was the day of the week Jan 1, 2010?</h3>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qthree" value="Programming" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tuesday
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qthree" value="Scripting" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sunday
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qthree" value="Assembly" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wednesday
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qthree" value="4.7 and 3.41" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Friday
+                </div><br>
+                <button class="primary small left" onclick="showtwo()">Prev</button>
+                <button class="primary small right" onclick="showfour()">Next</button>
+        </div>
+
+        <div id="four">
+                <h3>Q4. Two buses start from a bus terminal with a speed of 20 km/h at 
+                        interval of 10 minutes. What is the speed of a man coming from 
+                        the opposite direction towards the bus terminal if he meets the 
+                        buses at interval of 8 minutes?</h3>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qfour" value="Programming" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3kmph
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qfour" value="Scripting" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7kmph
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qfour" value="math.pi" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5kmph
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qfour" value="None" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4kmph
+                </div><br>
+                <button class="primary small left" onclick="showthree();">Prev</button>
+                <button class="primary small right" onclick="showfive()">Next</button>
+        </div>
+
+        <div id="five">
+                <h3>Q5. 1.14 expressed as a per cent of 1.9 is:</h3>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qfive" value="-9" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50%
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qfive" value="27" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60%
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qfive" value="-27" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10%
+                </div><br>
+                <div class="check">&nbsp;&nbsp;
+                        <input type="radio" name="qfive" value="9" />
+                        <button class="radiomark">X</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20%
+                </div><br>
+                <button class="primary small left" onclick="showfour();">Prev</button>
+                <button class="primary small right" onclick="showsubmit();">Submit</button>
+        </div>
+
+        <div id="submit">
+                <h2>Are You Sure You Want To Submit? You Can't Undo This Step</h2>
+                <div class="row"><button class="alert large" onclick="showfive();">No, Go Back</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="success large" onclick="qone(); qtwo(); qthree(); qfour(); qfive(); result(); showresult(); hidenav();">Yes Submit</button></div>
+        </div>
+
+        <div id="result">
+            <h2>Here Is Your Result : </h2>
+            <h3 id="score"></h3>
+        </div>
+
+    </div>
+    <div class="col large4 quiz right box" id="nav">
+            <h3>Navigation : </h3>
+            <button class="square secondary" onclick="showone();">Q1</button>
+            <button class="square secondary" onclick="showtwo();">Q2</button>
+            <button class="square secondary" onclick="showthree();">Q3</button><br>
+            <button class="square secondary" onclick="showfour();">Q4</button>
+            <button class="square secondary" onclick="showfive();">Q5</button><br>
+            <button class="tab secondary" style="margin:10px;" onclick="showsubmit();">Submit</button>
+            <br><br><br>
+    </div>
+</body>
+</html>
